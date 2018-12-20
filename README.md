@@ -1,5 +1,6 @@
 # mainnet-blacklist
 
+add these accounts to config.ini of nodeos
 ```
 actor-blacklist = blacklistmee
 actor-blacklist = ge2dmmrqgene
@@ -70,3 +71,15 @@ actor-blacklist = 24cryptoshop
 actor-blacklist = minedtradeos
 actor-blacklist = gizdkmjvhege
 ```
+
+
+verify hash
+```
+grep actor-black config.ini | grep -v "#" | sort | tr -d " " | sha256sum
+# the hash of latest blacklist version
+# 1adf65d8d9272f1634240a0e057910d5c276ede1aa96463b8ad2fa1af62e47ef
+```
+
+For more information, please visit [https://www.bloks.io/blacklist](https://www.bloks.io/blacklist)
+
+
