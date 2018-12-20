@@ -73,7 +73,7 @@ actor-blacklist = gizdkmjvhege
 ```
 
 
-verify hash
+verify accounts
 ```
 grep actor-black config.ini | grep -v "#" | sort | tr -d " " | sha256sum
 # the hash of latest blacklist
