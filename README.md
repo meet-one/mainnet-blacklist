@@ -1,6 +1,6 @@
 # mainnet-blacklist
 
-add these accounts to config.ini of nodeos
+Step 1: add these accounts to config.ini of nodeos
 ```
 actor-blacklist = blacklistmee
 actor-blacklist = ge2dmmrqgene
@@ -73,13 +73,15 @@ actor-blacklist = gizdkmjvhege
 ```
 
 
-verify accounts
+Step 2: verify accounts
 ```
 grep actor-black config.ini | grep -v "#" | sort | tr -d " " | sha256sum
 # the hash of latest blacklist
 # 1adf65d8d9272f1634240a0e057910d5c276ede1aa96463b8ad2fa1af62e47ef
 ```
 
-For more information, please visit [https://www.bloks.io/blacklist](https://www.bloks.io/blacklist)
+Step 3: restart nodeos
+
+for more information about blacklist, please visit [https://www.bloks.io/blacklist](https://www.bloks.io/blacklist)
 
 
