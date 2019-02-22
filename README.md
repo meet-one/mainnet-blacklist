@@ -70,6 +70,21 @@ actor-blacklist = whitegroupes
 actor-blacklist = 24cryptoshop
 actor-blacklist = minedtradeos
 actor-blacklist = gizdkmjvhege
+actor-blacklist = newdexmobapp
+actor-blacklist = ftsqfgjoscma
+actor-blacklist = hpbcc4k42nxy
+actor-blacklist = 3qyty1khhkhv
+actor-blacklist = xzr2fbvxwtgt
+actor-blacklist = myqdqdj4qbge
+actor-blacklist = shprzailrazt
+actor-blacklist = qkwrmqowelyu
+actor-blacklist = lmfsopxpr324
+actor-blacklist = lhjuy3gdkpq4
+actor-blacklist = lcxunh51a1gt
+actor-blacklist = geydddsfkk5e
+actor-blacklist = pnsdiia1pcuy
+actor-blacklist = kwmvzswquqpb
+actor-blacklist = guagddoefdqu
 ```
 
 
