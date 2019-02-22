@@ -92,7 +92,7 @@ Step 2: verify accounts
 ```
 grep actor-black config.ini | grep -v "#" | sort | tr -d " " | sha256sum
 # the hash of latest blacklist
-# 1adf65d8d9272f1634240a0e057910d5c276ede1aa96463b8ad2fa1af62e47ef
+# 8a9695b16fc9223c959d7349ab64e96788d289a1e760881cbba25a96f03691b6
 ```
 
 Step 3: restart nodeos
